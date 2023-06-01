@@ -1,0 +1,84 @@
+@media (max-width: 768px) {
+  /* Styles for smaller screens (e.g., mobile devices) */
+}
+
+@media (min-width: 769px) {
+  /* Styles for larger screens (e.g., desktops) */
+}
+
+.shadow-effect {
+  position: relative;
+  overflow: hidden;
+}
+
+.water-reflection {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  right: 0;
+  height: 20px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+  transform: scaleY(-1);
+  transform-origin: bottom;
+}
+
+body {
+  background-color: rgb(41, 84, 224);
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d102e;
+}
+.white-text {
+  color: white;
+}
+
+.navbar-custom {
+  background-color: #a3afbc; /* Replace with your desired color */
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.btn-cylindrical {
+  border-radius: 50px;
+}
+.container {
+  overflow: hidden; /* Clears the float */
+  padding-top: 90px;
+}
+
+.left {
+  float: left;
+  width: 60%;
+}
+
+.right {
+  float: right;
+  width: 40%;
+}
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+}
+curved-button {
+  border-radius: 10px; /* Adjust the border radius for desired curve */
+  padding: 10px 20px; /* Adjust padding values for button size */
+  border: none;
+  background-color: #ff0000; /* Set desired background color */
+  color: #af1515; /* Set desired text color */
+  font-size: 16px;
+}
+footer {
+  padding-top: 20px; /* Adjust the value as needed */
+}
